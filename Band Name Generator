@@ -1,0 +1,12 @@
+#BAND NAME GENERATOR
+print("Hello! Welcome to my Band Name Generator.")
+print("Let's personalize a band name for you!")
+print("But for that....I need some information.")
+
+adj=input("Name an adjective that you would describe yourself as:")
+city=input("What city do you reside in?")
+noun=input("Add a random noun:")
+
+print("\nYour band name is: ")
+band_name=adj+" "+city+" "+noun
+print(band_name)
