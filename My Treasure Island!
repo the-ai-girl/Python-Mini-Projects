@@ -1,0 +1,484 @@
+print('''
+*******************************************************************************
+          |                   |                  |                     |
+ _________|________________.=""_;=.______________|_____________________|_______
+|                   |  ,-"_,=""     `"=.|                  |
+|___________________|__"=._o`"-._        `"=.______________|___________________
+          |                `"=._o`"=._      _`"=._                     |
+ _________|_____________________:=._o "=._."_.-="'"=.__________________|_______
+|                   |    __.--" , ; `"=._o." ,-"""-._ ".   |
+|___________________|_._"  ,. .` ` `` ,  `"-._"-._   ". '__|___________________
+          |           |o`"=._` , "` `; .". ,  "-._"-._; ;              |
+ _________|___________| ;`-.o`"=._; ." ` '`."\` . "-._ /_______________|_______
+|                   | |o;    `"-.o`"=._``  '` " ,__.--o;   |
+|___________________|_| ;     (#) `-.o `"=.`_.--"_o.-; ;___|___________________
+____/______/______/___|o;._    "      `".o|o_.--"    ;o;____/______/______/____
+/______/______/______/_"=._o--._        ; | ;        ; ;/______/______/______/_
+____/______/______/______/__"=._o--._   ;o|o;     _._;o;____/______/______/____
+/______/______/______/______/____"=._o._; | ;_.--"o.--"_/______/______/______/_
+____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
+/______/______/______/______/______/______/______/______/______/______/_____ /
+*******************************************************************************
+''')
+print("Welcome to Muznah's Treasure Island.")
+print("Your mission is to find the treasure.")
+print("\nYou've been on a ship in search of a precious, rare diamond.💎")
+print("Everything in your journey is going fine...")
+print(
+  "but one day you find your ship caught in the middle of a giant storm.⛈️")
+print("Next thing you know, you're waking up on a strange island, all alone.")
+print("Surprised, you don't know where to go.")
+
+choice1 = input(
+  "\n\n\nAt the LEFT side of the beach lies a dense, lush jungle and at the RIGHT side: a small cottage.\n Where are you going?\nType RIGHT or LEFT to continue."
+).lower()
+if choice1 == "right":
+  print('''                                 ___
+                                   T T
+                                   ===
+                                   |.|
+                                  .'.`.
+                                .'.' `.`.
+                  %%          .'.' ___ `.`.
+                 %%%%       .'.'  |_|_|  `.`.
+                %%%%%%    .'.'    |_|_|    `.`.
+                %%%%%__.--`'| []  |_|_|  [] |`'---.
+__              %%%%|------||               |||||||
+ /\     =========%%%|    _&||      ___      ||===='
+/  \   ///////////H/| j |  ||     |_|_|     ||    |
+||||  ////////////H%|   |- ||     |_|_|     ||____|
+|||| /////////////H/|   |  ||     |_|_|     ||  TT|       .   &
+|||| @@@@@@@@@@@@@H@|======||               ||====|  "==='   (f
+|\//|\/|/\//\||//|\|||/\//|//\||\//||//|\||\||\/|/\//\||////|//\/||''')
+  print(
+    "\nYou find an old map of the island!\nALSO! You found some berries to eat in the cottage garden."
+  )
+  choice2 = input("Are you eating the berries? YES or NO?").lower()
+  if choice2 == "yes":
+    print(''' ,v.
+((  )
+ `"''')
+    print(''' ,v.
+((  )
+ `"''')
+    print(''' ,v.
+((  )
+ `"''')
+    print("\nThey were delicious!\nYou're full of energy now<3")
+    choice3 = input(
+      "\nYou set out to explore.You come across a hidden cave.\nAre you going to enter?\nType YES or NO to continue."
+    ).lower()
+    print('''/######################\____
+         ___/################,##########\___
+       _/#################################\_
+      /#################/####################\
+     /#########################################\
+    |###########################################|
+    |###########################################|
+    |###########################################|
+    |###########################################|
+    |###########################################|
+    |###########################################|
+    |###########################################|
+    |###########################################|
+    |###########################################|
+    |###########################################|
+    |###########################################|
+    |###########################################|
+    |###########################################|
+    |###########################################|
+    |###########################################|
+    |###########################################|
+\ | /########| |################################| \ | /
+_\|/|#######/   \####################\|/########|__\|/___''')
+    if choice3 == "no":
+      print('''\n         *  *       *  * 
+                        *      *   *      *
+                        *       * *       *
+                         *       *       *   
+                           *           *
+                             *       *
+                               *   *
+                                * *             arm
+                                 *
+''')
+      print(
+        "\nYou stay on the right path. Moving forward. \nIt's getting dark.")
+      choice4 = input(
+        "\nIn the distance, you see light flickering from a small hut.\nWill you cautiously approach it or keep your distance?\nType APPROACH or DISTANCE to continue."
+      ).lower()
+      if choice4 == "approach":
+        print('''    
+                .-~~~~~~~~~-._       _.-~~~~~~~~~-.
+            __.'              ~.   .~              `.__
+          .'//                  \./                  \\`.
+        .'//                     |                     \\`.
+      .'// .-~"""""""~~~~-._     |     _,-~~~~"""""""~-. \\`.     
+    .'//.-"                 `-.  |  .-'                 "-.\\`.
+  .'//______.============-..   \ | /   ..-============.______\\`.
+.'______________________________\|/______________________________`.
+''')
+        print(
+          "\nYou enter it and find a journal detailing a previous inhabitants search for the\n LEGENDARY DIAMOND💎."
+        )
+        choice5 = input(
+          "\nWill you look into the journal and continue their search?\nType YES or NO to continue."
+        ).lower()
+        if choice5 == "yes":
+          print('''
+                                 d
+                                d8
+                               dP8
+                              d8 8
+                             d8P 8
+                            d88  8
+                           d88P  8
+                          d888   8
+                         d888P   8
+                        d8888    8
+                       d8888P    8
+                      d88888     8
+                      d88888booooo8
+          8"""""Ybooooooooooooooo8oooooooooooooodP"""P""
+          Y                                        .P"   
+           Y                                    .P"  
+            YooooooooooooooooooooooooooooooooooP"  
+
+
+''')
+          print(
+            "\nYou find their hidden cove's destination using the map and journal.It contains a small rowboat."
+          )
+          choice6 = input(
+            "\nPick your destiny now.\nType GO HOME or SEARCH TREASURE to continue."
+          ).lower()
+          if choice6 == "search treasure":
+            print('''                        
+     8a8 8a8                    oP   ?b
+    d888a888zzzzzzzzzzzzzzzzzzzz8     8b
+     `""^""'                    ?o___oP'
+''')
+            print(
+              "\nFollowing the clues, you come across a peculiar rock formation.\nIt looks like a key."
+            )
+            choice7 = input(
+              "\nAre you searching for its lock or ignoring?\nType SEARCH or IGNORE to continue."
+            ).lower()
+            if choice7 == "search":
+              print(
+                "\nYou discover a hidden waterfall deep within the jungle.\nBehind the cascade, there's a hidden chamber."
+              )
+              choice8 = input(
+                "\nDo you admire it or enter?\nType ADMIRE or ENTER to continue."
+              ).lower()
+              if choice8 == "enter":
+                print('''
+         __________
+        /\____;;___\
+       | /         /
+       `. ())oo() .
+        |\(%()*^^()^\
+       %| |-%-------|
+      % \ | %  ))   |
+      %  \|%________|
+''')
+                print(
+                  "\nYou find a small ornate chest inside.\nJust as you're about to open, a rival treasure hunter who has been trailing you appears.\n\nHe's determined to claim the treasure.\nAs he draws near, you see a secret passage."
+                )
+                choice9 = input(
+                  "\nDo you want to confront the rival or escape through the passage you found earlier?\n Type CONFRONT or ESC to continue: "
+                ).lower()
+                if choice9 == "confront":
+                  print('''    
+                     _  ___  _   _ 
+| | |/ _ \| | | |
+|_| | (_) | |_| |
+\__, |\___/ \__,_|
+  _/ |            
+|___/             _           _ 
+         (_)         
+__      ___ _ __   
+\ \ /\ / / | '_ \ 
+ \ V  V /| | | | | 
+  \_/\_/ |_|_| |_|
+                        ''')
+                  print(
+                    "You were the stronger one! \nYou defeated the other hunter.\nThe treasure is YOURS!"
+                  )
+                  choice10 = input(
+                    "\nClick Y to reveal the treasure, or press any other character to terminate the game."
+                  ).lower()
+                  if choice10 == "y":
+                    print('''  
+      __________________
+    .-'  \ _.-''-._ /  '-.
+  .-/\   .'.      .'.   /\-.
+ _'/  \.'   '.  .'   './  \'_
+:======:======::======:======:  
+ '. '.  \     ''     /  .' .'
+   '. .  \   :  :   /  . .'
+     '.'  \  '  '  /  '.'
+       ':  \:    :/  :'
+         '. \    / .'
+           '.\  /.'    
+             '\/'''
+                          '')
+                    print(
+                      "\nYOU UNLOCKED THE TREASURE! You find a diamond. The diamond is MUZNAH ADNAN SHEIKH!!!"
+                    )
+                    print('''            __,,,__
+                ,-""-,-"       "-,-""-,
+               /,-' , .-'-.7.-'-. , '-,\
+               \(    /  _     _  \    )/
+                '-,  { (0)   (0) }  ,-'
+                 /    >  .---.  <    \
+                |/ .-'   \___/   '-. \|
+                {, /  ,_       _,  \ ,}
+                \ {,    \     /    ,} /
+                 ',\.    '---'    ./,'
+             _.-""""""-._     _.-""""""-._
+           .'            `._.`            '.
+         _/_               _                \
+      .'`   `\            | |                \
+     /        |           | |                 ;
+     |        /           |_|                 |
+     \  ;'---'    _    ___  _  _  ___         ;
+      '. ;       | |  /   \| || ||  _|     _ ;
+        `-\      | |_ | | || |/ /|  _|   .' `,
+           `\    |___|\___/ \__/ |___|  |     \
+             \            _ _           \     |
+              `\         | | |         /`   _/
+    ,-""-.    .'`\       | | |       /`-,-'` .-""-,
+   /      `\.'    `\     \___/     /`    './`      \
+  ;  .--.   \       '\           /'       /   .--.  ;
+  | (    \   |,       '\       /'        |   /    ) |
+   \ ;    }             ;\   /;         `   {    ; /
+    `;\   \         _.-'  \ /  `-._         /   /;`
+      \ \__.'   _.-'       Y       `-._    '.__//
+       '.___,.-'                       `-.,___.'
+''')
+                  else:
+                    print("\nGuess you didn't want a diamond :[ Game Over.")
+                elif choice9 == "esc":
+                  print('''  .-=-=-.
+ /       \
+|         |
+| )     ( |
+\/ .\ /. \/
+(    ^    )
+ |.     .|
+ ||xxxxx||
+ '-._._.-' 
+''')
+                  print(
+                    "Oops! The passage was too narrow!\nYou're stuck.\nGame Over."
+                  )
+                else:
+                  print("Invalid Input. It's okay. Retry sweetie :)!")
+              elif choice8 == "admire":
+                print('''  .-=-=-.
+ /       \
+|         |
+| )     ( |
+\/ .\ /. \/
+(    ^    )
+ |.     .|
+ ||xxxxx||
+ '-._._.-' 
+''')
+                print(
+                  "\nA heavy blow of wind comes and you fall in the waterfall.\nGame Over."
+                )
+              else:
+                print('''
+                          *  *       *  * 
+                        *      *   *      *
+                        *       * *       *
+                         *       *       *   
+                           *           *
+                             *       *
+                               *   *
+                                * *             
+                                 *''')
+                print("\nInvalid Input. It's okay. Retry sweetie!")
+            elif choice7 == "ignore":
+              print('''  .-=-=-.
+ /       \
+|         |
+| )     ( |
+\/ .\ /. \/
+(    ^    )
+ |.     .|
+ ||xxxxx||
+ '-._._.-' 
+''')
+              print(
+                "\nIt was the key to lock. You never find it again.\nGame over."
+              )
+            else:
+              print('''
+                          *  *       *  * 
+                        *      *   *      *
+                        *       * *       *
+                         *       *       *   
+                           *           *
+                             *       *
+                               *   *
+                                * *             
+                                 *''')
+              print("\nInvalid Input. It's okay. Retry sweetie :).")
+          elif choice6 == "go home":
+            print('''
+                          *  *       *  * 
+                        *      *   *      *
+                        *       * *       *
+                         *       *       *   
+                           *           *
+                             *       *
+                               *   *
+                                * *             
+                                 *''')
+            print(
+              "\nYou reach home safe and sound. Your mom greets you with a hug. You realise the real treasure is the relationships we build with the people we love. You're happy. Game Over."
+            )
+          else:
+            print('''
+                          *  *       *  * 
+                        *      *   *      *
+                        *       * *       *
+                         *       *       *   
+                           *           *
+                             *       *
+                               *   *
+                                * *             
+                                 *''')
+            print("\nInvalid Input. It's okay. Retry sweetie :)!")
+        elif choice5 == "no":
+          print('''  .-=-=-.
+ /       \
+|         |
+| )     ( |
+\/ .\ /. \/
+(    ^    )
+ |.     .|
+ ||xxxxx||
+ '-._._.-' 
+''')
+          print("\nGame over.")
+        else:
+          print('''
+                          *  *       *  * 
+                        *      *   *      *
+                        *       * *       *
+                         *       *       *   
+                           *           *
+                             *       *
+                               *   *
+                                * *             
+                                 *''')
+          print("\nInvalid Input! It's okay. Retry sweetie :).")
+      elif choice4 == "distance":
+        print('''  .-=-=-.
+ /       \
+|         |
+| )     ( |
+\/ .\ /. \/
+(    ^    )
+ |.     .|
+ ||xxxxx||
+ '-._._.-' 
+''')
+        print(
+          "It gets dark and you're lost in the dark. \nYou slip and fall in a crater.\n Game over!"
+        )
+      else:
+        print('''
+                          *  *       *  * 
+                        *      *   *      *
+                        *       * *       *
+                         *       *       *   
+                           *           *
+                             *       *
+                               *   *
+                                * *             
+                                 *''')
+        print("Invalid Input. It's okay. Retry, sweetie :).")
+    elif choice3 == "yes":
+      print('''  .-=-=-.
+ /       \
+|         |
+| )     ( |
+\/ .\ /. \/
+(    ^    )
+ |.     .|
+ ||xxxxx||
+ '-._._.-' 
+''')
+      print(
+        "\nIt was home to a cannibalistic tribe.\nYou are eaten. Game over.")
+    else:
+      print('''
+                          *  *       *  * 
+                        *      *   *      *
+                        *       * *       *
+                         *       *       *   
+                           *           *
+                             *       *
+                               *   *
+                                * *             
+                                 *''')
+      print("\nInvalid Input. It's okay. Retry, sweetie:).")
+  elif choice2 == "no":
+    print('''  .-=-=-.
+ /       \
+|         |
+| )     ( |
+\/ .\ /. \/
+(    ^    )
+ |.     .|
+ ||xxxxx||
+ '-._._.-' 
+''')
+    print(
+      "\nThere was no other food on the island.\nYou die of exhaustion.\nGame over."
+    )
+  else:
+    print('''
+                          *  *       *  * 
+                        *      *   *      *
+                        *       * *       *
+                         *       *       *   
+                           *           *
+                             *       *
+                               *   *
+                                * *             
+                                 *''')
+    print("\nInvalid Input. It's okay. Retry, sweetie :).")
+elif choice1 == "left":
+  print('''
+                      __,,,,_
+          _ __..-;''`--/'/ /.',-`-.
+      (`/' ` |  \ \ \\ / / / / .-'/`,_
+     /'`\ \   |  \ | \| // // / -.,/_,'-,
+    /<7' ;  \ \  | ; ||/ /| | \/    |`-/,/-.,_,/')
+   /  _.-, `,-\,__|  _-| / \ \/|_/  |    '-/.;.\'
+   `-`  f/ ;      / __/ \__ `/ |__/ |
+        `-'      |  -| =|\_  \  |-' |
+              __/   /_..-' `  ),'  //
+          fL ((__.-'((___..-'' \__.'
+
+''')
+  print(
+    "\nThere were many predators in the jungle. \nYou are eaten. Game over.")
+else:
+  print('''
+                          *  *       *  * 
+                        *      *   *      *
+                        *       * *       *
+                         *       *       *   
+                           *           *
+                             *       *
+                               *   *
+                                * *             
+                                 *''')
+  print("\nInvalid Input. It's okay. Retry, sweetie :)")
